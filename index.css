@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #1B244A
+}
+
+@font-face {
+    font-family: Cursed;
+    src: url(CursedTimer.ttf)
+}
+
+.scoreboard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 385px;
+    width: 575px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 348px;
+    width: 155px;
+}
+
+.team-text {
+    height: 36px;
+    width: 149px;
+    color: #EEE;
+    font-size: 40px;
+}
+
+.score-container {
+    font-family: cursed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 155px;
+    background: black;
+}
+
+.score {
+    color: red;
+    font-size: 90px;
+}
+
+.button-container {
+    height: 45px;
+    width: 155px;
+}
+
+.increment-btn {
+    height: 45px;
+    width: 45px;
+    background: transparent;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
+}
